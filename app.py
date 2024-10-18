@@ -1,10 +1,7 @@
-#Student ID: c0920822
-# Miguel Poma 
-from flask import Flask, render_template
-from pymongo import MongoClient
 from dotenv import load_dotenv
 import os
-
+from flask import Flask, render_template
+from pymongo import MongoClient
 # Cargar las variables de entorno desde el archivo .env
 load_dotenv()
 
